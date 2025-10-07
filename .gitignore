@@ -1,0 +1,149 @@
+# ================================
+# OS / General
+# ================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+$RECYCLE.BIN/
+*.bak
+*.tmp
+*.swp
+*.swo
+*~
+
+# ================================
+# Logs / Debug / Temp
+# ================================
+*.log
+*.pid
+*.seed
+*.backup
+*.orig
+
+# ================================
+# Compiled Binaries / Objects
+# ================================
+*.out
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.class
+*.jar
+*.war
+*.ear
+*.py[cod]
+__pycache__/
+*.a
+*.lib
+
+# ================================
+# CMake / Make / Build Artifacts
+# ================================
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+# Makefile
+*.mk
+*.dep
+*.dSYM/
+*.mod
+*.map
+
+# ================================
+# IDEs / Editors
+# ================================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs (CLion, IntelliJ, PyCharm, etc.)
+.idea/
+*.iml
+out/
+
+# Eclipse
+.settings/
+.project
+.classpath
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Code::Blocks
+*.depend
+*.layout
+*.cbp
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# DevC++
+*.dev
+*.depend
+
+# ================================
+# Java-specific
+# ================================
+*.class
+*.jar
+*.war
+*.ear
+*.javadoc
+
+# ================================
+# Python-specific
+# ================================
+*.egg
+*.egg-info/
+dist/
+build/
+env/
+venv/
+ENV/
+env.bak/
+*.pyo
+*.pyd
+pip-log.txt
+
+# ================================
+# C / C++ specific
+# ================================
+*.d
+*.gcda
+*.gcno
+*.gcov
+
+# ================================
+# Test / Coverage
+# ================================
+coverage/
+*.lcov
+*.gcov
+*.lst
+
+# ================================
+# Miscellaneous
+# ================================
+*.sqlite3
+*.db
+*.ipynb_checkpoints/
+*.pdf~
+*.tar.gz
+*.zip
+*.rar
+
+# ================================
+# Git-specific
+# ================================
