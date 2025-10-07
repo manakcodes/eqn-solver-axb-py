@@ -6,7 +6,7 @@ CLI tool to solve linear equations AX = B using `NumPy` and matrix algebra with 
 
 ## 🐙 How This Project Works
 
-This program solves a system of linear equations AX = B using matrix algebra. If A is invertible, it computes X = A⁻¹ × B, otherwise it reports infinite or no solutions. Calculations use NumPy, and output is displayed via Rich.
+This program solves a system of linear equations `AX = B` using matrix algebra. If A is invertible, it computes `X = A⁻¹ × B`, otherwise it reports infinite or no solutions. Calculations use `NumPy`, and output is displayed via `Rich`.
 
 ## 🛠️ Tools And Tech Used
 
@@ -25,18 +25,10 @@ This program solves a system of linear equations AX = B using matrix algebra. If
 
 - Input coefficient matrix `A`, variable matrix `X`, and constant matrix `B`.
 - Solve equations using : `X = A⁻¹ × B`
-
 - Detect if the system has:
-- A **unique solution**
-- **Infinite solutions**
-- **No solution**
-- Pretty CLI outputs with **Rich** library (progress bars, styled messages).
-- Automatic determinant and solution calculation using **NumPy**.
-
-- Detect if the system has:
-- `UNIQUE SOLUTION`
-- `INFINITE SOLUTIONS`
-- `NO SOLUTIONS`
+  - `UNIQUE SOLUTION`
+  - `INFINITE SOLUTIONS`
+  - `NO SOLUTIONS`
 - Pretty CLI outputs with `Rich` library (progress bars, styled messages).
 - Automatic determinant and solution calculation using `NumPy`.
 
@@ -94,7 +86,7 @@ python solver.py
 
 ## 🪪 LICENSE
 
-## This Project is licensed under MIT license.
+This Project is licensed under [MIT License](https://github.com/manakcodes/eqn-solver-axb-py/blob/5e3793a06ec172c7a64e6a4179d9d4cd765a1c08/LICENSE).
 
 ---
 
