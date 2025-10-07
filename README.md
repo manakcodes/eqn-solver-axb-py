@@ -1,4 +1,4 @@
-# `linear-equation-solver-using-python`
+# `eqn-solver-axb-py`
 
 CLI tool to solve linear equations AX = B using `NumPy` and matrix algebra with `Rich` -styled output.
 
@@ -48,13 +48,13 @@ This program solves a system of linear equations `AX = B` using matrix algebra. 
 
 ```bash
 cd Desktop
-git clone <repo_url>
+git clone https://github.com/manakcodes/eqn-solver-axb-py.git
 ```
 
 ### 2. Navigate To The Project Repository
 
 ```bash
-cd linear-equation-solver
+cd eqn-solver-axb-py
 ```
 
 ### 3. Create a virtual environment
